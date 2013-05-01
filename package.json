@@ -10,6 +10,6 @@
   "author": "Daan van Berkel",
   "license": "MIT",
   "dependencies": {
-    "ardrone": "~0.1.0"
+    "ar-drone": "0.0.5"
   }
 }
