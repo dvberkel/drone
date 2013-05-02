@@ -152,5 +152,39 @@ results in a stream of data like
      cameraSource: [ 0, 0, 0, 0 ] } }
 ```
 
+### animate_leds
+
+```bash
+node animate_leds [0-20]
+```
+
+will animate the leds with the following pattern.
+
+```javascript
+[
+  /*  0 */ 'blank',
+  /*  1 */ 'blinkGreen',
+  /*  2 */ 'blinkGreenRed',
+  /*  3 */ 'blinkOrange',
+  /*  4 */ 'blinkRed',
+  /*  5 */ 'blinkStandard',
+  /*  6 */ 'doubleMissile',
+  /*  7 */ 'fire',
+  /*  8 */ 'frontLeftGreenOthersRed',
+  /*  9 */ 'frontRightGreenOthersRed',
+  /* 10 */ 'green',
+  /* 11 */ 'leftGreenRightRed',
+  /* 12 */ 'leftMissile',
+  /* 13 */ 'leftRedRightGreen',
+  /* 14 */ 'rearLeftGreenOthersRed',
+  /* 15 */ 'rearRightGreenOthersRed',
+  /* 16 */ 'red',
+  /* 17 */ 'redSnake',
+  /* 18 */ 'rightMissile',
+  /* 19 */ 'snakeGreenRed',
+  /* 20 */ 'standard'
+];
+```
+
 [parrot]: http://ardrone2.parrot.com/
 [node]: http://nodejs.org/
