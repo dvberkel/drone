@@ -11,5 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "ar-drone": "0.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "~0.7.8"
   }
 }
